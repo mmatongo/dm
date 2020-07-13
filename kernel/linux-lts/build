@@ -56,3 +56,4 @@ install -Dm644 "System.map"            "$1/boot/System.map-$2"
 install -Dm644 ".config"               "$1/boot/Config-$2"
 
 echo "LTS Kernal Installed..."
+echo "Regenerate your grub config..."
