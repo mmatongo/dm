@@ -599,6 +599,7 @@ CONFIG_EFI_RUNTIME_WRAPPERS=y
 # end of EFI (Extensible Firmware Interface) Support
 
 CONFIG_EFI_EARLYCON=y
+# CONFIG_EFI_CUSTOM_SSDT_OVERLAYS is not set
 
 #
 # Tegra firmware driver
