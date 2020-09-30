@@ -51,6 +51,8 @@ ln -sv "/usr/lib/modules/$2/build" "$1/usr/src/linux"
 
 echo "Installing kernel..."
 mkdir -p "$1/boot"
+mkdir -p "$1/boot/efi"
+
 install -Dm644 "arch/x86/boot/bzImage" "$1/boot/vmlinuz-$2"
 install -Dm644 "System.map"            "$1/boot/System.map-$2"
 install -Dm644 ".config"               "$1/boot/Config-$2"
