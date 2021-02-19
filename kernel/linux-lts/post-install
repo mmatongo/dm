@@ -1,5 +1,3 @@
 #!/bin/sh -e
 
-echo "regenerate your grub config"
-
-sudo grub-mkconfig -o /boot/grub/grub.cfg
+grub-mkconfig -o /boot/grub/grub.cfg
